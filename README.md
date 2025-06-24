@@ -58,6 +58,17 @@ CycleGAN/
 ├── requirements.txt      # List of Python packages required
 └── README.md             # Project documentation
 
+CycleGAN/
+├── data/                 # Dataset folder (horse2zebra images)
+├── images/               # Output folder with translated images
+├── saved_model/          # Saved model checkpoints
+├── cyclegan.py           # Main training and execution script
+├── datasets.py           # Dataset loader and preprocessing utilities
+├── models.py             # Generator and discriminator model definitions
+├── utils.py              # Helper functions (image transforms, etc.)
+├── requirements.txt      # List of Python packages required
+└── README.md             # Project documentation
+
 
 
 ---
