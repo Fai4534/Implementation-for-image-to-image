@@ -47,6 +47,7 @@ In this project, we:
 
 ## 🗂️ Project Structure
 
+```
 CycleGAN/
 ├── data/                 # Dataset folder (horse2zebra images)
 ├── images/               # Output folder with translated images
@@ -58,20 +59,7 @@ CycleGAN/
 ├── requirements.txt      # List of Python packages required
 └── README.md             # Project documentation
 
-CycleGAN/
-   ├── data/             (Dataset folder containing horse2zebra images)
-   ├── images/           (Folder with output translated images)
-   ├── saved_model/      (Saved model checkpoints)
-   ├── cyclegan.py       (Main training and execution script)
-   ├── datasets.py       (Dataset loader and preprocessing utilities)
-   ├── models.py         (Generator and discriminator model definitions)
-   ├── utils.py          (Helper functions such as image transforms)
-   ├── requirements.txt  (List of required Python packages)
-   └── README.md         (Project documentation)
-
-
-
-
+```
 ---
 
 ## 📦 Dataset
